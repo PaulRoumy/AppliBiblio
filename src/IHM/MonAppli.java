@@ -9,7 +9,6 @@ public class MonAppli extends JFrame {
     public MonAppli(){
         super("La Bibliothèque");
         setSize(750,650);
-        setIconImage();
         this.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 
         //Panel
