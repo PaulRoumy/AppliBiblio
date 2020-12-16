@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cb747572-e3fa-40cd-b840-29d122d17d10" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IHM/MonAppli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IHM/MonAppli.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608117302891</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ajout dossier Image">
+      <created>1608122445594</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608122445594</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -111,26 +119,26 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1608117265662" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1608117001717">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1608122452896">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608117001717" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1608117001716">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608122452896" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1608122452895">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608117001716" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1608117001716">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608122452895" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1608122452895">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608117001716" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1608117001717">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608122452895" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1608122452896">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608117001717" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608117305454">
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608122452896" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608122447878">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608117305454" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608122447878" />
     <state x="542" y="351" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1608114360805">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

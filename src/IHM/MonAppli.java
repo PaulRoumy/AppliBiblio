@@ -52,7 +52,18 @@ public class MonAppli extends JFrame {
         GridBagLayout layout= new GridBagLayout();
         jPanel.setLayout(layout);
 
+        GridBagConstraints gbc = new GridBagConstraints();
+        gbc.gridx = 0;
+        gbc.gridy=0;
+
         //Interne a la fenetre
+            //Auteur texte
+        JLabel auteurLabel= new JLabel();
+        auteurLabel.setText("Auteur");
+        gbc.gridx=7;
+        gbc.gridy=0;
+
+
 
 
 
