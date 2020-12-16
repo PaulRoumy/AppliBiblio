@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb747572-e3fa-40cd-b840-29d122d17d10" name="Default Changelist" comment="" />
+    <list default="true" id="cb747572-e3fa-40cd-b840-29d122d17d10" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/IHM/MonAppli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IHM/MonAppli.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,36 +75,44 @@
       <option name="project" value="LOCAL" />
       <updated>1608115926117</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Mise a jour taille">
+      <created>1608116078341</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608116078341</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Ajout menubar/menu/menuItem" />
     <MESSAGE value="Ajout menu &quot;Help&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout menu &quot;Help&quot;" />
+    <MESSAGE value="Mise a jour taille" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise a jour taille" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1608115910932">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1608116054693">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608115910932" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1608115910931">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608116054693" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1608116054692">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608115910931" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1608115910930">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608116054692" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1608116054692">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608115910930" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1608115910932">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608116054692" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1608116054693">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608115910932" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608115930531">
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608116054693" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608116081600">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608115930531" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608116081600" />
     <state x="542" y="351" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1608114360805">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
