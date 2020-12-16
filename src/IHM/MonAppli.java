@@ -61,6 +61,14 @@ public class MonAppli extends JFrame {
         gbc.gridy=0;
         jPanel.add(auteurLabel,gbc);
 
+            //Zone texte auteur
+        JTextField auteurText =new JTextField();
+        auteurText.setText("                   ");
+        gbc.gridx = 1;
+        gbc.gridwidth=GridBagConstraints.REMAINDER;
+        jPanel.add(auteurText,gbc);
+
+
 
 
 
