@@ -15,6 +15,7 @@ public class MonAppli extends JFrame {
         JPanel jPanel = new JPanel();
         jPanel.setBackground(Color.gray);
         this.setContentPane(jPanel);
+        GridBagConstraints gbc = new GridBagConstraints();
 
         //MenuBar
         JMenuBar menuBar= new JMenuBar();
@@ -52,17 +53,13 @@ public class MonAppli extends JFrame {
         GridBagLayout layout= new GridBagLayout();
         jPanel.setLayout(layout);
 
-        GridBagConstraints gbc = new GridBagConstraints();
-        gbc.gridx = 0;
-        gbc.gridy=0;
-
         //Interne a la fenetre
             //Auteur texte
         JLabel auteurLabel= new JLabel();
         auteurLabel.setText("Auteur");
-        gbc.gridx=7;
+        gbc.gridx=0;
         gbc.gridy=0;
-
+        jPanel.add(auteurLabel,gbc);
 
 
 
