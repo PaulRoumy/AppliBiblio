@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 public class MonAppli extends JFrame {
     public MonAppli(){
         super("La Bibliothèque");
-        setSize(450,350);
+        setSize(750,650);
         this.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 
         //Panel

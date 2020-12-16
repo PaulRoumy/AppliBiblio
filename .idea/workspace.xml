@@ -23,6 +23,9 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -63,35 +66,43 @@
       <option name="project" value="LOCAL" />
       <updated>1608115558152</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ajout menu &quot;Help&quot;">
+      <created>1608115926117</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608115926117</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Ajout menubar/menu/menuItem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout menubar/menu/menuItem" />
+    <MESSAGE value="Ajout menu &quot;Help&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout menu &quot;Help&quot;" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1608115507665">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1608115910932">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608115507665" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1608115507664">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608115910932" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1608115910931">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608115507664" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1608115507663">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608115910931" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1608115910930">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608115507663" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1608115507664">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608115910930" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1608115910932">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608115507664" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608115562065">
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608115910932" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608115930531">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608115562065" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608115930531" />
     <state x="542" y="351" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1608114360805">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
