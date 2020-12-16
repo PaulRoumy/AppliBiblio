@@ -25,7 +25,10 @@ public class MonAppli extends JFrame {
         JMenu fileMenu = new JMenu();
         fileMenu.setText("File");
         menuBar.add(fileMenu);
-            //
+            //Help
+        JMenu help =new JMenu();
+        help.setText("Help");
+        menuBar.add(help);
 
 
         //Sous-menu

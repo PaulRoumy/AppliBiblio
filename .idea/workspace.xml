@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb747572-e3fa-40cd-b840-29d122d17d10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IHM/MonAppli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IHM/MonAppli.java" afterDir="false" />
-    </list>
+    <list default="true" id="cb747572-e3fa-40cd-b840-29d122d17d10" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,34 +56,42 @@
       <option name="project" value="LOCAL" />
       <updated>1608114463486</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ajout menubar/menu/menuItem">
+      <created>1608115558152</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608115558152</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Ajout menubar/menu/menuItem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout menubar/menu/menuItem" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1608114204017">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1608115507665">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608114204017" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1608114204016">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608115507665" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1608115507664">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608114204016" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1608114204016">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608115507664" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1608115507663">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608114204016" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1608114204017">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608115507663" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1608115507664">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608114204017" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608114467177">
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608115507664" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608115562065">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608114467177" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608115562065" />
     <state x="542" y="351" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1608114360805">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
