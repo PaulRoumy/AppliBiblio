@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Projet:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cb747572-e3fa-40cd-b840-29d122d17d10" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Projet_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Projet/IHM/MonAppli.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projet/IHM/MonAppli.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/IHM/MonAppli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IHM/MonAppli.java" afterDir="false" />
@@ -28,6 +35,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
@@ -132,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608128089347</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Story 2 + début mise en page">
+      <created>1608132879817</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608132879817</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -145,29 +163,34 @@
     <MESSAGE value="panel Ok" />
     <MESSAGE value="Auteur Feild" />
     <MESSAGE value="Menu Édit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Menu Édit" />
+    <MESSAGE value="Story 2 + début mise en page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Story 2 + début mise en page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1608117265662">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1608117265662" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1608132656899">
+    <state x="457" y="236" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1608192818517">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608132656899" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1608132656898">
+    <state x="457" y="236" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1608192818517" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1608193375840">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608132656898" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1608132656896">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608193375840" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1608193375838">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608132656896" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1608132656899">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608193375838" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1608193375838">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608132656899" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608193375838" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1608193375839">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608193375839" />
     <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1608129928677">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -184,10 +207,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1608129928677" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608128093137">
+    <state x="208" y="23" width="1024" height="832" key="SettingsEditor" timestamp="1608192827016">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608128093137" />
+    <state x="208" y="23" width="1024" height="832" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1608192827016" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608132882988">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608132882988" />
     <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608125324879">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

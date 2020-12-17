@@ -36,6 +36,20 @@ public class MonAppli extends JFrame {
         JMenu help =new JMenu();
         help.setText("Help");
         menuBar.add(help);
+            //A propos
+        JMenuItem apropos =new JMenuItem();
+        apropos.setText("A propos");
+
+        apropos.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JFrame jFrame = new JFrame("Test");
+                JOptionPane.showMessageDialog(null," MESSAGE ! \n VERSION : 0.1 " +
+                        "\n Réalisé par Paul, Alexandre, Emeric et Tristan","INFORMATION", JOptionPane.INFORMATION_MESSAGE);
+
+            }
+        });
+        menuBar.add(apropos);
 
 
 
@@ -55,12 +69,13 @@ public class MonAppli extends JFrame {
                 int returnValue = jfc.showOpenDialog(null);
                 if (returnValue == JFileChooser.APPROVE_OPTION){
                     System.out.println(jfc.getSelectedFile().getPath());
+                    JOptionPane.showMessageDialog(null,"MESSAGE ! '" + jfc.getSelectedFile().getPath() + "' .","INFORMATION", JOptionPane.INFORMATION_MESSAGE);
                 }
             }
         });
         fileMenu.add(openFile);
 
-            //quit
+            // file-quit
         JMenuItem close = new JMenuItem();
         close.setText("Close");
         close.addActionListener(new ActionListener() {
@@ -70,6 +85,13 @@ public class MonAppli extends JFrame {
             }
         });
         fileMenu.add(close);
+
+            //edit-erase
+        JMenuItem raz = new JMenuItem();
+        raz.setText("RAZ");
+        edit.add(raz);
+
+
 
         //Layout
         GridBagLayout layout= new GridBagLayout();
@@ -86,7 +108,7 @@ public class MonAppli extends JFrame {
 
             //Zone texte auteur
         JTextField auteurText =new JTextField();
-        auteurText.setText("                   ");
+        auteurText.setPreferredSize(new Dimension(90,25));
         gbc.gridx = 1;
         gbc.gridy=0;
         jPanel.add(auteurText,gbc);
@@ -100,7 +122,7 @@ public class MonAppli extends JFrame {
 
             //Titre zone texte
         JTextField titre = new JTextField();
-        titre.setText("                   ");
+        titre.setPreferredSize(new Dimension(90,25));
         gbc.gridx=1;
         gbc.gridy=1;
         jPanel.add(titre,gbc);
@@ -114,7 +136,7 @@ public class MonAppli extends JFrame {
 
             //Parution Zone de texte
         JTextField parution = new JTextField();
-        parution.setText("                   ");
+        parution.setPreferredSize(new Dimension(90,25));
         gbc.gridx=1;
         gbc.gridy=2;
         jPanel.add(parution,gbc);
@@ -128,7 +150,7 @@ public class MonAppli extends JFrame {
 
             // Colone zone Texte
         JTextField colone = new JTextField();
-        colone.setText("                   ");
+        colone.setPreferredSize(new Dimension(90,25));
         gbc.gridx = 1;
         gbc.gridy = 3;
         jPanel.add(colone,gbc);
@@ -140,12 +162,33 @@ public class MonAppli extends JFrame {
         gbc.gridy=4;
         jPanel.add(rangéeLabel, gbc);
 
-            //Rangée
+            //Rangée Zone Texte
         JTextField rangée = new JTextField();
-        rangée.setText("                   ");
+        rangée.setPreferredSize(new Dimension(90,25));
         gbc.gridx = 1;
         gbc.gridy = 4;
         jPanel.add(rangée, gbc);
+
+            //Résumé
+        JLabel resumeLabel =new JLabel();
+        resumeLabel.setText("Résumé :");
+        gbc.gridx = 0;
+        gbc.gridy = 5;
+        jPanel.add(resumeLabel,gbc);
+
+            //Résumé Zone Texte
+        JTextArea résumé = new JTextArea();
+        résumé.setPreferredSize(new Dimension(90,100));
+        gbc.gridx=1;
+        gbc.gridy=5;
+        jPanel.add(résumé,gbc);
+
+            //Bouton Validé
+        JButton validé = new JButton();
+        validé.setText("Validé");
+        gbc.gridx= 1;
+        gbc.gridy= 6;
+        jPanel.add(validé,gbc);
 
 
 
