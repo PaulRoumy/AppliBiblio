@@ -189,6 +189,9 @@ public class MonAppli extends JFrame {
 
 
         //Tableau
+        UIDefaults defaults =UIManager.getLookAndFeelDefaults();
+        if (defaults.get("Table.alternateRowColor") == null)
+            defaults.put("Table.alternateRowColor", new Color(240, 240, 240));
         String[][] d = {
                 { "Harry Potter", "J.K Rowling","2000",  "5","4", "" },
                 { "Eragon", "C.Paolini","2011", "2","3" , "Un monde de dragon"},
@@ -200,26 +203,26 @@ public class MonAppli extends JFrame {
 
         JTable table=new JTable(d, col);
         table.addMouseListener(new MouseListener() {
-                                   @Override
-                                   public void mouseClicked(MouseEvent e) {
-                                     int select = table.getSelectedRow();
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                int select = table.getSelectedRow();
 
-                                      Livre livre = new Livre(
-                                               d[select][0],
-                                               d[select][1],
-                                               d[select][2],
-                                               d[select][3],
-                                               d[select][4],
-                                               d[select][5]
+                Livre livre = new Livre(
+                        d[select][0],
+                        d[select][1],
+                        d[select][2],
+                        d[select][3],
+                        d[select][4],
+                        d[select][5]
 
-                                       );
-                                       auteurText.setText(Livre.getAuteur());
-                                       titre.setText(Livre.getTitre());
-                                       parution.setText(Livre.getParution());
-                                       colone.setText(Livre.getColone());
-                                       rangée.setText(Livre.getRangée());
-                                       résumé.setText(Livre.getRésumé());
-                                       ligne=select;
+                );
+                auteurText.setText(Livre.getAuteur());
+                titre.setText(Livre.getTitre());
+                parution.setText(Livre.getParution());
+                colone.setText(Livre.getColone());
+                rangée.setText(Livre.getRangée());
+                résumé.setText(Livre.getRésumé());
+                ligne=select;
 
 
 
@@ -300,12 +303,20 @@ public class MonAppli extends JFrame {
                                         d[ligne][3] =colone.getText();
                                         d[ligne][4] =rangée.getText();
                                         d[ligne][5] =résumé.getText();
+
                                         titre.setText("");
                                         auteurText.setText("");
                                         parution.setText("");
                                         colone.setText("");
                                         rangée.setText("");
                                         résumé.setText("");
+
+
+
+
+
+
+
 
                                     }
                                 });
