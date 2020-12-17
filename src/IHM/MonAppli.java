@@ -300,6 +300,12 @@ public class MonAppli extends JFrame {
                                         d[ligne][3] =colone.getText();
                                         d[ligne][4] =rangée.getText();
                                         d[ligne][5] =résumé.getText();
+                                        titre.setText("");
+                                        auteurText.setText("");
+                                        parution.setText("");
+                                        colone.setText("");
+                                        rangée.setText("");
+                                        résumé.setText("");
 
                                     }
                                 });
