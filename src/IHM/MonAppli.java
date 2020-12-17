@@ -1,11 +1,13 @@
 package IHM;
-
+import Objet.Livre;
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import javax.swing.filechooser.FileSystemView;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 
 public class MonAppli extends JFrame {
     public MonAppli(){
@@ -214,7 +216,54 @@ public class MonAppli extends JFrame {
         String [] col={"Nom", "Auteur","Parution", "Colonne","Rangée", "Résumé"};
 
         JTable table=new JTable(d, col);
-        gbc.gridx = 0;
+        table.addMouseListener(new MouseListener() {
+                                   @Override
+                                   public void mouseClicked(MouseEvent e) {
+                                     int select = table.getSelectedRow();
+
+                                      Livre livre = new Livre(
+                                               d[select][0],
+                                               d[select][1],
+                                               d[select][2],
+                                               d[select][3],
+                                               d[select][4],
+                                               d[select][5]
+
+                                       );
+                                       auteurText.setText(Livre.getAuteur());
+                                       titre.setText(Livre.getTitre());
+                                       parution.setText(Livre.getParution());
+                                       colone.setText(Livre.getColone());
+                                       rangée.setText(Livre.getRangée());
+                                       résumé.setText(Livre.getRésumé());
+
+
+
+                                   }
+
+                                   @Override
+                                   public void mousePressed(MouseEvent e) {
+
+                                   }
+
+                                   @Override
+                                   public void mouseReleased(MouseEvent e) {
+
+                                   }
+
+                                   @Override
+                                   public void mouseEntered(MouseEvent e) {
+
+                                   }
+
+                                   @Override
+                                   public void mouseExited(MouseEvent e) {
+
+                                   }
+                               });
+
+
+                gbc.gridx = 0;
         gbc.gridy = 0;
         gbc.gridwidth=6;
         gbc.gridheight=1;
@@ -223,6 +272,7 @@ public class MonAppli extends JFrame {
         gbc.gridwidth = 6;
         gbc.gridheight = 1;
         jPanel.add(table, gbc);
+
 
 
 
