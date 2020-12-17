@@ -191,7 +191,7 @@ public class MonAppli extends JFrame {
         //Tableau
         UIDefaults defaults =UIManager.getLookAndFeelDefaults();
         if (defaults.get("Table.alternateRowColor") == null)
-            defaults.put("Table.alternateRowColor", new Color(240, 240, 240));
+            defaults.put("Table.alternateRowColor", new Color(210, 210, 210));
         String[][] d = {
                 { "Harry Potter", "J.K Rowling","2000",  "5","4", "" },
                 { "Eragon", "C.Paolini","2011", "2","3" , "Un monde de dragon"},
