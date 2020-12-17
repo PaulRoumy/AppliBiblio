@@ -7,7 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb747572-e3fa-40cd-b840-29d122d17d10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Objet/Livre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Projet/IHM/MonAppli.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projet/IHM/MonAppli.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/IHM/MonAppli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IHM/MonAppli.java" afterDir="false" />
@@ -164,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608201943866</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Formulair lié ligne">
+      <created>1608210671815</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608210671815</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -180,7 +186,8 @@
     <MESSAGE value="Story 2 + début mise en page" />
     <MESSAGE value="Story 8 fini" />
     <MESSAGE value="Tableau pose" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tableau pose" />
+    <MESSAGE value="Formulair lié ligne" />
+    <option name="LAST_COMMIT_MESSAGE" value="Formulair lié ligne" />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1608202641250">
@@ -191,22 +198,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="457" y="236" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1608192818517" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1608210082987">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1608216417926">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608210082987" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1608210082985">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608216417926" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1608216417925">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608210082985" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1608210082985">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608216417925" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1608216417925">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608210082985" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1608210082986">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608216417925" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1608216417926">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608210082986" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608216417926" />
     <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1608209569016">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -239,10 +246,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="23" width="1024" height="832" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1608192827016" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608201947161">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608210720899">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608201947161" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608210720899" />
     <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608125324879">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -267,11 +274,6 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="5" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/IHM/MonAppli.java</url>
-          <line>223</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

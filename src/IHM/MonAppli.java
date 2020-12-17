@@ -10,6 +10,7 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
 public class MonAppli extends JFrame {
+    int ligne;
     public MonAppli(){
         super("La Bibliothèque");
         setSize(850,750);
@@ -185,29 +186,11 @@ public class MonAppli extends JFrame {
         gbc.gridy=5;
         jPanel.add(résumé,gbc);
 
-            //Bouton Validé
-        JButton validé = new JButton();
-        validé.setText("Validé");
-        gbc.gridx= 8;
-        gbc.gridy= 6;
-        jPanel.add(validé,gbc);
 
-            //Bonton ajout
-        JButton ajout = new JButton();
-        ajout.setText("New");
-        gbc.gridx=3;
-        gbc.gridy=2;
-        jPanel.add(ajout,gbc);
-            //Bonton suprimé
-        JButton suppr = new JButton();
-        suppr.setText("Delete");
-        gbc.gridx =4;
-        gbc.gridy=2;
-        jPanel.add(suppr, gbc);
 
         //Tableau
         String[][] d = {
-                { "Harry Potter", "J.K Rowling","2000",  "5","4","", },
+                { "Harry Potter", "J.K Rowling","2000",  "5","4", "" },
                 { "Eragon", "C.Paolini","2011", "2","3" , "Un monde de dragon"},
                 { "", "", "", "" ,"",""},
                 { "", "", "", "","" ,""},
@@ -236,6 +219,8 @@ public class MonAppli extends JFrame {
                                        colone.setText(Livre.getColone());
                                        rangée.setText(Livre.getRangée());
                                        résumé.setText(Livre.getRésumé());
+                                       ligne=select;
+
 
 
 
@@ -263,7 +248,7 @@ public class MonAppli extends JFrame {
                                });
 
 
-                gbc.gridx = 0;
+        gbc.gridx = 0;
         gbc.gridy = 0;
         gbc.gridwidth=6;
         gbc.gridheight=1;
@@ -272,6 +257,56 @@ public class MonAppli extends JFrame {
         gbc.gridwidth = 6;
         gbc.gridheight = 1;
         jPanel.add(table, gbc);
+
+        JButton ajout = new JButton();
+        ajout.setText("New");
+        ajout.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                boolean espacelibre=false;
+
+                for(int i =0; i<5; i++){
+                    if (d[i][0]==""){
+                        espacelibre=true;
+                        ligne=i;
+                        break;
+
+                    }
+                }
+                if (!espacelibre){
+
+                }
+            }
+        });
+        gbc.gridx=1;
+        gbc.gridy=2;
+        jPanel.add(ajout,gbc);
+        //Bonton suprimé
+        JButton suppr = new JButton();
+        suppr.setText("Delete");
+        gbc.gridx =4;
+        gbc.gridy=2;
+        jPanel.add(suppr, gbc);
+
+        // event valide
+        JButton valid = new JButton();
+        valid.setText("Valider");
+        valid.addActionListener(new ActionListener() {
+                                    @Override
+                                    public void actionPerformed(ActionEvent e) {
+                                        d[ligne][0] =titre.getText();
+                                        d[ligne][1] =auteurText.getText();
+                                        d[ligne][2] =parution.getText();
+                                        d[ligne][3] =colone.getText();
+                                        d[ligne][4] =rangée.getText();
+                                        d[ligne][5] =résumé.getText();
+
+                                    }
+                                });
+
+                gbc.gridx = 8;
+        gbc.gridy=6;
+        jPanel.add(valid,gbc);
 
 
 
