@@ -10,7 +10,7 @@ import java.awt.event.ActionListener;
 public class MonAppli extends JFrame {
     public MonAppli(){
         super("La Bibliothèque");
-        setSize(750,650);
+        setSize(850,750);
         this.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 
         //Panel
@@ -102,93 +102,127 @@ public class MonAppli extends JFrame {
             //Auteur texte
         JLabel auteurLabel= new JLabel();
         auteurLabel.setText("Auteur :");
-        gbc.gridx=0;
+        gbc.gridx=7;
         gbc.gridy=0;
         jPanel.add(auteurLabel,gbc);
 
             //Zone texte auteur
         JTextField auteurText =new JTextField();
         auteurText.setPreferredSize(new Dimension(90,25));
-        gbc.gridx = 1;
+        gbc.gridx = 8;
         gbc.gridy=0;
         jPanel.add(auteurText,gbc);
 
             // Titre Texte
         JLabel titreLabel = new JLabel();
         titreLabel.setText("Titre :");
-        gbc.gridx=0;
+        gbc.gridx=7;
         gbc.gridy=1;
         jPanel.add(titreLabel,gbc);
 
             //Titre zone texte
         JTextField titre = new JTextField();
         titre.setPreferredSize(new Dimension(90,25));
-        gbc.gridx=1;
+        gbc.gridx=8;
         gbc.gridy=1;
         jPanel.add(titre,gbc);
 
             //Parution Texte
         JLabel parutionLabel= new JLabel();
         parutionLabel.setText("Parution :");
-        gbc.gridx=0;
+        gbc.gridx=7;
         gbc.gridy=2;
         jPanel.add(parutionLabel, gbc);
 
             //Parution Zone de texte
         JTextField parution = new JTextField();
         parution.setPreferredSize(new Dimension(90,25));
-        gbc.gridx=1;
+        gbc.gridx=8;
         gbc.gridy=2;
         jPanel.add(parution,gbc);
 
             //Colone texte
         JLabel colonelabel =new JLabel();
         colonelabel.setText("Colone :");
-        gbc.gridx =0;
+        gbc.gridx =7;
         gbc.gridy =3;
         jPanel.add(colonelabel, gbc);
 
             // Colone zone Texte
         JTextField colone = new JTextField();
         colone.setPreferredSize(new Dimension(90,25));
-        gbc.gridx = 1;
+        gbc.gridx = 8;
         gbc.gridy = 3;
         jPanel.add(colone,gbc);
 
             //Rangée
         JLabel rangéeLabel = new JLabel();
         rangéeLabel.setText("Rangée :");
-        gbc.gridx=0;
+        gbc.gridx=7;
         gbc.gridy=4;
         jPanel.add(rangéeLabel, gbc);
 
             //Rangée Zone Texte
         JTextField rangée = new JTextField();
         rangée.setPreferredSize(new Dimension(90,25));
-        gbc.gridx = 1;
+        gbc.gridx = 8;
         gbc.gridy = 4;
         jPanel.add(rangée, gbc);
 
             //Résumé
         JLabel resumeLabel =new JLabel();
         resumeLabel.setText("Résumé :");
-        gbc.gridx = 0;
+        gbc.gridx = 7;
         gbc.gridy = 5;
         jPanel.add(resumeLabel,gbc);
 
             //Résumé Zone Texte
         JTextArea résumé = new JTextArea();
         résumé.setPreferredSize(new Dimension(90,100));
-        gbc.gridx=1;
+        gbc.gridx=8;
         gbc.gridy=5;
         jPanel.add(résumé,gbc);
 
             //Bouton Validé
         JButton validé = new JButton();
         validé.setText("Validé");
-        gbc.gridx= 1;
+        gbc.gridx= 8;
         gbc.gridy= 6;
         jPanel.add(validé,gbc);
+
+            //Bonton ajout
+        JButton ajout = new JButton();
+        ajout.setText("New");
+        gbc.gridx=3;
+        gbc.gridy=2;
+        jPanel.add(ajout,gbc);
+            //Bonton suprimé
+        JButton suppr = new JButton();
+        suppr.setText("Delete");
+        gbc.gridx =4;
+        gbc.gridy=2;
+        jPanel.add(suppr, gbc);
+
+        //Tableau
+        String[][] d = {
+                { "Harry Potter", "J.K Rowling","2000",  "5","4","", },
+                { "Eragon", "C.Paolini","2011", "2","3" , "Un monde de dragon"},
+                { "", "", "", "" ,"",""},
+                { "", "", "", "","" ,""},
+                { "", "", "", "","" ,""},
+        };
+        String [] col={"Nom", "Auteur","Parution", "Colonne","Rangée", "Résumé"};
+
+        JTable table=new JTable(d, col);
+        gbc.gridx = 0;
+        gbc.gridy = 0;
+        gbc.gridwidth=6;
+        gbc.gridheight=1;
+        jPanel.add(table.getTableHeader(), gbc);
+        gbc.gridy = 1;
+        gbc.gridwidth = 6;
+        gbc.gridheight = 1;
+        jPanel.add(table, gbc);
 
 
 
