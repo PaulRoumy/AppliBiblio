@@ -46,7 +46,7 @@ public class MonAppli extends JFrame {
         apropos.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                JFrame jFrame = new JFrame("Test");
+                JFrame jFrame = new JFrame();
                 JOptionPane.showMessageDialog(null," MESSAGE ! \n VERSION : 0.1 " +
                         "\n Réalisé par Paul, Alexandre, Emeric et Tristan","INFORMATION", JOptionPane.INFORMATION_MESSAGE);
 
@@ -85,7 +85,7 @@ public class MonAppli extends JFrame {
         novelty.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                JFrame jFrame = new JFrame("Test");
+                JFrame jFrame = new JFrame();
                 JOptionPane.showMessageDialog(null," Reckless, de Cornelia Funke en 2010. \n King's Game, de Nobuaki Kanazawa en 2009. " +
                         "\n Eragon, Tome 02; L'aîné, de Christopher Paolini en 2011.","Nouveauté depuis 2008 !!!", JOptionPane.INFORMATION_MESSAGE);
 
@@ -100,7 +100,7 @@ public class MonAppli extends JFrame {
         statistical.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                JFrame jFrame = new JFrame("Test");
+                JFrame jFrame = new JFrame();
                 JOptionPane.showMessageDialog(null," Noms des livres qui ont pour seconde lettre la lettre A \n " +
                         "Harry Potter, J.K Rowling, 2000" +
                         "\n ","Statistique", JOptionPane.INFORMATION_MESSAGE);
