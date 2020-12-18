@@ -120,10 +120,6 @@ public class MonAppli extends JFrame {
         });
         fileMenu.add(close);
 
-            //edit-erase
-        JMenuItem raz = new JMenuItem();
-        raz.setText("RAZ");
-        edit.add(raz);
 
 
 
@@ -318,6 +314,20 @@ public class MonAppli extends JFrame {
         //Bonton suprimé
         JButton suppr = new JButton();
         suppr.setText("Delete");
+        suppr.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                d[ligne][0]="";
+                d[ligne][1]="";
+                d[ligne][2]="";
+                d[ligne][3]="";
+                d[ligne][4]="";
+                d[ligne][5]="";
+
+
+
+            }
+        });
         gbc.gridx =4;
         gbc.gridy=2;
         jPanel.add(suppr, gbc);
@@ -342,6 +352,8 @@ public class MonAppli extends JFrame {
                                         rangée.setText("");
                                         résumé.setText("");
 
+                                        ligne=-1;
+
 
 
 
@@ -357,6 +369,20 @@ public class MonAppli extends JFrame {
         jPanel.add(valid,gbc);
 
 
+        //edit-erase
+        JMenuItem raz = new JMenuItem();
+        raz.setText("RAZ");
+        raz.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                for( int i =0 ; i<5 ; i++){
+                    for (int j = 0 ; j<6 ; j++){
+                        d[i][j]= "";
+                    }
+                }
+            }
+        });
+        edit.add(raz);
 
 
     }
